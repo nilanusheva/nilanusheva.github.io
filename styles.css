@@ -119,3 +119,14 @@ section {
         grid-template-columns: 1fr;
     }
 }
+
+.picture-card {
+  text-align: center;
+}
+
+.caption {
+  font-size: 13px;
+  color: #d8c8df;
+  margin-top: 8px;
+  font-style: italic;
+}
