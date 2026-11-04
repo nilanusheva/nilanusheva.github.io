@@ -6,14 +6,14 @@
 }
 
 body {
-  background-color: #d9c5fo;
-  color: #493263;
+  background-color: #49364f;
+  color: #f0e8f2;
   font-family: 'Quicksand', sans-serif;
   line-height: 1.8:
 }
 
 nav{
-  background-color: #c6a9e8;
+  background-color: #59425f;
   padding: 20px 8%;
   display: flex;
   justify-content: space-between;
@@ -22,24 +22,28 @@ nav{
   gap: 15px;
 }
 
+nav h2 {
+  font-size: 22px;
+}
+
 nav a {
-  color: #493263;
+  color: #f0e8f2;
   text-decoration: none;
   margin_left: 20px;
   font-weight: 600;
 }
 
 nav a:hover {
-  color: white;
+  color: #cbb6d3;
 }
 
 header {
   text-align: center;
-  padding: 100px 20px;
+  padding: 90px 20px;
 }
 
 header h1 {
-  font-size: 55px;
+  font-size: 50px;
   margin-bottom: 15px;
 }
 
@@ -48,7 +52,7 @@ header p {
 }
 
 section {
-  background-color: #eee5f8;
+  background-color: #67516d;
   margin: 35px auto;
   padding: 45px;
   width: 85%;
@@ -74,7 +78,7 @@ section p {
 
 .pictures img {
     width: 100%;
-    height: 190px;
+    height: 220px;
     object-fit: cover;
     border-radius: 12px;
 }
@@ -84,3 +88,34 @@ section p {
     margin-top: 10px;
 }
 
+footer {
+  background-color: #382a3e;
+  color: #f0e8f2;
+  text-align: center;
+  padding: 30px;
+  margin-top: 50px;
+}
+
+@media (max-width: 650px) {
+    nav {
+        justify-content: center;
+        text-align: center;
+    }
+
+ nav a {
+        margin: 5px;
+    }
+
+    header h1 {
+        font-size: 40px;
+    }
+
+section {
+        width: 92%;
+        padding: 25px;
+    }
+
+    .pictures {
+        grid-template-columns: 1fr;
+    }
+}
