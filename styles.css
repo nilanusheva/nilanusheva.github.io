@@ -1,0 +1,13 @@
+{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #d9c5fo;
+  color: #493263;
+  font-family: 'Quicksand', sans-serif;
+  line-height: 1.8:
+}
